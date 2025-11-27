@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
+    padding: 1rem;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.table-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.modal-header {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.btn-primary,
+.btn-success {
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+}
+
+.btn-warning {
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #ff9800;
+}
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.9rem;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .table-container {
+        padding: 1rem;
+    }
+}

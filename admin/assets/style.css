@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Form Container */
+.login-container {
+    background: linear-gradient(135deg, #2980b9, #6dd5fa, #ffffff);
+}
+
+/* Card Styles */
+.card {
+    max-width: 400px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+/* Form Styles */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #2980b9;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3498db;
+}
+
+/* Forgot Password Link */
+.small {
+    font-size: 14px;
+    color: #2980b9;
+}
+
+.small:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
